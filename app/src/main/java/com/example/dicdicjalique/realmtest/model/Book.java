@@ -1,8 +1,9 @@
 package com.example.dicdicjalique.realmtest.model;
 
+import io.realm.RealmModel;
 import io.realm.annotations.PrimaryKey;
 
-public class Book {
+public class Book implements RealmModel {
 
     @PrimaryKey
     private int id;
